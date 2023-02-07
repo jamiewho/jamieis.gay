@@ -12,7 +12,7 @@ html, body {
 
 body {
 	font-family: comfortaa-light;
-	background-color: black;
+	background-image: url(assets/bg.png);
 	color: #fff;
 }
 
@@ -78,28 +78,8 @@ h1 {
 
 
 
-.header {
-	display: flex;
-	height: 56px;
-	margin-bottom: 12px;
-	justify-content: center;
-}
-
-.header img {
+.content img {
 	border-radius: 50%;
-}
-
-.name h1 {
-	font-size: 36px;
-	margin-left: 8px;
-	margin-bottom: 2px;
-
-	background: linear-gradient(-45deg, #00e4ff, #ffa9fe, #00e4ff);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-size: 200% auto;
-	animation: text-gradient 7s ease-in-out infinite alternate;
 }
 
 .content .links img {
